@@ -1,0 +1,221 @@
+[10:59:36] [main/INFO]: Setting user: Steve
+[10:59:36] [main/INFO]: (Session ID is token:0:81b8a1b7-7068-306e-9c81-90825253066f)
+[10:59:36] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:59:37] [Client thread/INFO]: Reloading ResourceManager: Default
+[10:59:38] [Sound Library Loader/INFO]: Sound engine started
+[10:59:43] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[10:59:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:59:44] [Client thread/ERROR]: Can't find the resource index file: C:\Users\Decencies\AppData\Roaming\.minecraft\assets\indexes\voxelmap.json
+[10:59:44] [Client thread/INFO]: Reloading ResourceManager: Default, voxelmapResourcePack
+[10:59:46] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[10:59:46] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:59:47] [Sound Library Loader/INFO]: Sound engine started
+[11:01:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:01:09] [Server thread/INFO]: Generating keypair
+[11:01:09] [Server thread/INFO]: Preparing start region for level 0
+[11:01:09] [Server thread/INFO]: Changing view distance to 7, from 10
+[11:01:09] [Server thread/INFO]: Steve[local:E:cef7e252] logged in with entity id 193 at (45.91319669481531, 65.0, 218.6749533919055)
+[11:01:09] [Server thread/INFO]: Steve joined the game
+[11:01:10] [Client thread/WARN]: Failed to load texture: minecraft:textures/gui/compass.png
+java.io.FileNotFoundException: minecraft:textures/gui/compass.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:62) ~[classes/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[classes/:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:32) ~[classes/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:95) [classes/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:51) [classes/:?]
+	at com.cheatbreaker.client.module.type.DirectionHudModule.render(DirectionHudModule.java:53) [classes/:?]
+	at com.cheatbreaker.client.module.type.DirectionHudModule.renderReal(DirectionHudModule.java:41) [classes/:?]
+	at com.cheatbreaker.client.module.type.DirectionHudModule$$Lambda$33/1442114564.accept(Unknown Source) [classes/:?]
+	at com.cheatbreaker.client.event.EventBus.lambda$callEvent$13(EventBus.java:30) [classes/:?]
+	at com.cheatbreaker.client.event.EventBus$$Lambda$64/869051292.accept(Unknown Source) [classes/:?]
+	at java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:890) [?:1.8.0_51]
+	at com.cheatbreaker.client.event.EventBus.callEvent(EventBus.java:30) [classes/:?]
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:361) [classes/:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1213) [classes/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1009) [classes/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:905) [classes/:?]
+	at net.minecraft.client.main.Main.main(Main.java:161) [classes/:?]
+	at Start.main(Start.java:22) [test-classes/:?]
+[11:01:10] [Server thread/INFO]: Saving and pausing game...
+[11:01:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:01:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:01:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:01:14] [Server thread/INFO]: Saving and pausing game...
+[11:01:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:01:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:01:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:04:48] [Server thread/INFO]: Saving and pausing game...
+[11:04:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:04:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:04:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:04:49] [Client thread/INFO]: Started on 54661
+[11:04:49] [Client thread/INFO]: [CHAT] Local game hosted on port 54661
+[11:05:05] [Client thread/INFO]: [CHAT] minecraft:tnt_minecart, minecraft:tnt
+[11:05:05] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 1 to Steve]
+[11:05:05] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 1 to Steve
+[11:05:12] [Client thread/INFO]: [CHAT] The number you have entered (128) is too big, it must be at most 64
+[11:05:17] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[11:05:17] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[11:07:54] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 267 items]
+[11:07:54] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 267 items
+[11:10:43] [Client thread/INFO]: [CHAT] There is no such item with ID minecraft:minecart_tnt
+[11:10:45] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[11:10:45] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[11:17:20] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[11:17:20] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[11:36:33] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 207 items]
+[11:36:33] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 207 items
+[11:36:34] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[11:36:34] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[11:39:11] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[11:39:11] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[11:42:17] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 13 items]
+[11:42:17] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 13 items
+[11:42:20] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 3 items]
+[11:42:20] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 3 items
+[11:45:55] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[11:45:55] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[11:54:28] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 19 items]
+[11:54:28] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 19 items
+[11:54:30] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[11:54:30] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[11:54:50] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[12:00:32] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 15 items]
+[12:00:32] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 15 items
+[12:00:34] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:00:34] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:00:35] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:00:35] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:00:35] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:00:35] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:00:36] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:00:36] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:00:36] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:00:36] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:00:41] [Server thread/INFO]: [Steve: Given [Chest] * 1 to Steve]
+[12:00:41] [Client thread/INFO]: [CHAT] Given [Chest] * 1 to Steve
+[12:06:14] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 26 items]
+[12:06:14] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 26 items
+[12:06:16] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:06:16] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:06:17] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:06:17] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:06:17] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:06:17] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:06:17] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:06:17] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:06:18] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:06:18] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:06:18] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:06:18] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:06:18] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:06:18] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:21] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 71 items]
+[12:07:21] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 71 items
+[12:07:35] [Server thread/INFO]: [Steve: Cleared the inventory of Steve, removing 1 items]
+[12:07:35] [Client thread/INFO]: [CHAT] Cleared the inventory of Steve, removing 1 items
+[12:07:36] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:36] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:36] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:36] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:37] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:37] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:37] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:37] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:37] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:37] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:38] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:38] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:38] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:38] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:07:38] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:07:38] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:53] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:53] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:54] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:54] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:54] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:54] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:54] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:54] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:54] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:54] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:55] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:55] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:55] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:55] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:11:55] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[12:11:55] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[12:25:35] [Server thread/INFO]: Stopping server
+[12:25:35] [Server thread/INFO]: Saving players
+[12:25:35] [Server thread/INFO]: Saving worlds
+[12:25:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:25:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:25:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:59:59] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:59:59] [Server thread/INFO]: Generating keypair
+[12:59:59] [Server thread/INFO]: Preparing start region for level 0
+[12:59:59] [Server thread/INFO]: Changing view distance to 7, from 10
+[12:59:59] [Server thread/INFO]: Steve[local:E:954ac932] logged in with entity id 829653 at (44.26333659899802, 66.29770907752955, 239.33030763220495)
+[12:59:59] [Server thread/INFO]: Steve joined the game
+[13:03:00] [Server thread/INFO]: Saving and pausing game...
+[13:03:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:03:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:03:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:04:21] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[13:05:16] [Server thread/INFO]: Saving and pausing game...
+[13:05:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:05:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:05:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:05:40] [Server thread/INFO]: Saving and pausing game...
+[13:05:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:05:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:05:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:06:09] [Client thread/INFO]: [CHAT] You do not have permission to use this command
+[13:06:43] [Server thread/INFO]: Saving and pausing game...
+[13:06:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:06:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:06:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:09:52] [Server thread/INFO]: Saving and pausing game...
+[13:09:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:09:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:09:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:11:19] [Server thread/INFO]: Saving and pausing game...
+[13:11:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:11:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:11:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:11:47] [Server thread/INFO]: Saving and pausing game...
+[13:11:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:11:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:11:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:17:00] [Server thread/INFO]: Saving and pausing game...
+[13:17:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:17:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:17:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:17:02] [Client thread/INFO]: Started on 57307
+[13:17:02] [Client thread/INFO]: [CHAT] Local game hosted on port 57307
+[13:17:13] [Client thread/INFO]: [CHAT] There is no such item with ID minecraft:minecart_tnt
+[13:17:19] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 1 to Steve]
+[13:17:19] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 1 to Steve
+[13:17:21] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[13:17:21] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[13:19:49] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[13:19:49] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[13:20:29] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[13:20:29] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[13:22:20] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[13:22:20] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[13:22:20] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[13:22:20] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[13:22:20] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[13:22:20] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[13:22:21] [Server thread/INFO]: [Steve: Given [Minecart with TNT] * 64 to Steve]
+[13:22:21] [Client thread/INFO]: [CHAT] Given [Minecart with TNT] * 64 to Steve
+[13:35:35] [Client thread/INFO]: Stopping!
+[13:35:35] [Server thread/INFO]: Stopping server
+[13:35:35] [Server thread/INFO]: Saving players
+[13:35:35] [Server thread/INFO]: Saving worlds
+[13:35:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:35:35] [Server thread/WARN]: The save is being accessed from another location, aborting
+[13:35:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:35:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
